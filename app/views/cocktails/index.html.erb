@@ -1,28 +1,27 @@
-<div class="container pad20">
-  <!-- Heading -->
-  <h1 class="text-underline text-brand">Delicious cocktails</h1>
+<%= render 'banner' %>
 
-    <!-- Grid row -->
-  <div class="row">
-    <!-- Card -->
-    <% @cocktails.each do |cocktail| %>
-
-    <div class="col-xs-12 col-sm-4">
-      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),
-                  url('<%= image_or_stub(cocktail, "xmnekrv7t2gigbpgsgtk") %>');">
-        <div class="card-description">
-          <h2> <%= cocktail.name  %> </h2>
-        </div>
-        <%= link_to "", cocktail_path(cocktail), class: "card-link" %>
-      </div>
-    </div>
-    <% end %>
-  </div>
-
-  <!-- Add button -->
-  <div class="pad10">
-    <%= link_to "Add your cocktail", new_cocktail_path, class: "btn btn-primary pad20" %>
-  </div>
-
-<!-- Close main div -->
+<div class="container">
+  <h3 class="text-center p-3">Our best picks</h3>
 </div>
+<div class="container d-flex">
+  <div class="card-product">
+    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    <div class="card-product-infos">
+      <h2>Product name</h2>
+      <p>Product description with <strong>relevant info</strong> only.</p>
+    </div>
+  </div>
+  <div class="card-product">
+    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    <div class="card-product-infos">
+      <h2>Product name</h2>
+      <p>Product description with <strong>relevant info</strong> only.</p>
+    </div>
+  </div>
+  <div class="card-product">
+    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    <div class="card-product-infos">
+      <h2>Product name</h2>
+      <p>Product description with <strong>relevant info</strong> only.</p>
+    </div>
+  </div>
