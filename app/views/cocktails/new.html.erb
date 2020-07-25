@@ -3,11 +3,14 @@
     <div class="col-md-8">
       <h1 class="black-header">Add a new cocktail</h1>
 
-      <%= simple_form_for @cocktail do |f| %>
-        <%= f.input :name, label: 'Name' %>
-        <%= f.input :photo, as: :file %>
-        <%= f.button :submit, class: 'btn btn-primary mb-3 w-50' %>
-      <% end %>
+      <div class="form-group">
+        <%= simple_form_for @cocktail do |f| %>
+          <%= f.input :name, label: 'Name', class: 'form-control' %>
+          <%= f.input :photo, as: :file %>
+          <%= f.button :submit, class: 'btn btn-primary mb-3 w-50' %>
+        <% end %>
+      </div>
       <%= link_to "Go back", cocktails_path, class: "btn btn-warning w-50" %>
     </div>
   </div>
+
