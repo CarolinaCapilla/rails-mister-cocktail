@@ -1,20 +1,58 @@
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+h3 {
+  color: black
+}
+
 .banner {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
 }
 
-.banner h1 {
-  margin: 0;
-  color: white;
+h1 {
+  padding: 20px;
+  font-size: 3em;
+  text-align: center;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
+}
+article {
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto 50px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+.subtitle {
+  margin: 0 0 2em 0;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
 }

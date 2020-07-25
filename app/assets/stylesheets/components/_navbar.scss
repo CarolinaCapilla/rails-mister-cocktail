@@ -3,10 +3,19 @@
   background: white;
 }
 
+a.nav-link {
+  font-family: "Roboto";
+}
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.fas  {
+  color: $logo;
+  font-size: 40px;
 }

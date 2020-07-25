@@ -24,7 +24,9 @@ ingredients = [
   Ingredient.create(name: 'tequila blanco'),
   Ingredient.create(name: 'orgeat'),
   Ingredient.create(name: 'triple sec'),
-  Ingredient.create(name: 'rose essence')
+  Ingredient.create(name: 'rose essence'),
+  Ingredient.create(name: 'campari'),
+  Ingredient.create(name: 'orange juice')
 ]
 
 ingredients.each do |ingredient|
