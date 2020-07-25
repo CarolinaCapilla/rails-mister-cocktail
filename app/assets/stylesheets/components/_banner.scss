@@ -1,11 +1,6 @@
-body {
-  font-family: 'Cinzel Decorative', cursive;
+.banner body {
   background-size: cover;
   color: #FFFFFF;
-}
-
-h3 {
-  color: black
 }
 
 .banner {
@@ -14,12 +9,20 @@ h3 {
   padding: 150px 0;
 }
 
-h1 {
+.banner p {
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.banner h1 {
+  font-family: 'Cinzel Decorative', cursive;
   padding: 20px;
   font-size: 3em;
   text-align: center;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: white;
 }
+
 article {
   max-width: 600px;
   overflow: hidden;
@@ -38,7 +41,7 @@ article {
   display: inline-block;
   position: relative;  
 }
-
+.fancy span:before,
 .fancy span:after {
   content: "";
   position: absolute;

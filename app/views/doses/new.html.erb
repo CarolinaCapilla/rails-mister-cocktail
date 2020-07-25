@@ -1,3 +1,5 @@
+<h1 class="black-header">Add ingredients and dosage</h1>
+
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.input :description, placeholder: 'ML or OZ', label: 'Dose' %>
   <%= f.association :ingredient, label: 'Ingredient' %>

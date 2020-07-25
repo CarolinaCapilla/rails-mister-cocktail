@@ -24,7 +24,6 @@ gem 'jbuilder', '~> 2.7'
 
 # Front-end gems
 gem 'autoprefixer-rails'
-# gem 'bootstrap-select-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 
