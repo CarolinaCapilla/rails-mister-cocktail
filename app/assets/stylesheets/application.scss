@@ -12,3 +12,18 @@
 @import "components/index";
 @import "pages/index";
 
+.title {
+  font-family: 'Cinzel Decorative', cursive;
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+
+.main-title {
+  // background-color: $logo;
+  font-family: 'Cinzel Decorative';
+  font-size: 42px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
