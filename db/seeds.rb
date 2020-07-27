@@ -13,18 +13,18 @@ Ingredient.destroy_all
 
 puts 'Creating ingredients'
 ingredients = [
-  Ingredient.create(name: 'Lemon'),
-  Ingredient.create(name: 'Lime'),
-  Ingredient.create(name: 'Mint leaves'),
-  Ingredient.create(name: 'White rum'),
-  Ingredient.create(name: 'Gomme'),
-  Ingredient.create(name: 'Gin'),
-  Ingredient.create(name: 'Campari'),
-  Ingredient.create(name: 'Orange juice'),
-  Ingredient.create(name: 'Tequila blanco'),
-  Ingredient.create(name: 'Orgeat'),
-  Ingredient.create(name: 'Triple sec'),
-  Ingredient.create(name: 'Rose essence'),
+  Ingredient.create!(name: 'Lemon'),
+  Ingredient.create!(name: 'Lime'),
+  Ingredient.create!(name: 'Mint leaves'),
+  Ingredient.create!(name: 'White rum'),
+  Ingredient.create!(name: 'Gomme'),
+  Ingredient.create!(name: 'Gin'),
+  Ingredient.create!(name: 'Campari'),
+  Ingredient.create!(name: 'Orange juice'),
+  Ingredient.create!(name: 'Tequila blanco'),
+  Ingredient.create!(name: 'Orgeat'),
+  Ingredient.create!(name: 'Triple sec'),
+  Ingredient.create!(name: 'Rose essence'),
 ]
 
 ingredients.each do |ingredient|
