@@ -1,11 +1,21 @@
 .card {
-  height: 175px;
+  height: 300px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
   color: black;
   position: relative;
   margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.card_big {
+  height: 400px;
+  background-size: cover !important;
+  background-position: center;
+  color: black;
+  position: relative;
   border-radius: 4px;
 }
 
@@ -18,7 +28,10 @@
 .card-description h2 {
   font-size: 24px;
   text-align: center;
-  // font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: $logo;
 }
 
 .card-link {
@@ -32,6 +45,30 @@
   opacity: 0;
 }
 
-// .card-link:hover {
-  
-// }
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}

@@ -26,9 +26,8 @@
           </tbody>
         </table>
       </div>
-      <div class="col-md-6">
-        <img src="https://f.roocdn.com/images/menus/70997/header-image.jpg?width=800&height=600&auto=webp&format=jpg&fit=crop&v=1531393618" alt="" class="w-100 rounded">
-    </div>
+      <div class="card_big col-md-6 center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path @cocktail.photo.key, height: 500, width: 500, crop: :fill %>')">
+      </div>
   </div>
     <%= link_to "Delete Cocktail", cocktail_path(@cocktail), method: :delete, data: { confirm: "Are you sure?" }, class: 'btn btn-outline-warning' %>
     <%= link_to "Home", root_path ,class: 'btn btn-outline-primary' %>
